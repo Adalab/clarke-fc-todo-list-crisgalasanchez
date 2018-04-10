@@ -8,14 +8,48 @@
   <title>Todo List</title>
 </head>
 <body>
+    <div class="page__container">
+      <header class="header">
+        <div class="icon">
+          <img src="images/logo.jpg" class="logo__icon" alt="Logo Adalab" >
+        </div>
+        <div class="date">
+          <div class="daymonth__container">
+            <p class="daymonth"></p>
+          </div>
+          <div>
+            <p class="day"></p>
+            <p class="year"></p>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="duties__section">
+          <ul class="duties__list">
+            <li class="duties__list-checkbox">
+              <input  id="checkbox" type="checkbox"  value="tarea 1" name="duties"/>
+              <label for="checkbox"></label>
+              <input id="checkbox" type="checkbox"  value="" name="duties"/>
+              <label for="checkbox"></label>
+            </li>
 
-  <header>
+          </ul>
+        </section>
+        <section class="modal">
+          <div class="modal__container">
+            <p>Nueva tarea</p>
+            <input type="text" class="newDuty__input" placeholder="tarea" value="">
+            <button class="newDuty__button">Añadir</button>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <section class="button__section">
+          <button class="button__add">+</button>
+        </section>
+      </footer>
+    </div>
 
-  </header>
-
-  <main>
-
-  </main>
   <script type="text/javascript" src=".\js\main.js">
   </script>
 </body>
