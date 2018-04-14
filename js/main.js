@@ -21,7 +21,7 @@ time();
 
 var modal = document.querySelector('.modal');
 var btn = document.querySelector(".button__add");
-var close = document.getElementsByClassName("newDuty__button")[0];
+var close = document.getElementsByClassName("modal__button")[0];
 
 // When the user clicks the button, open the modal
 btn.onclick = function() {
